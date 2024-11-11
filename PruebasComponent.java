@@ -94,9 +94,7 @@ class PruebaLam extends JPanel{
 		public void actionPerformed(ActionEvent e) {
 			JRadioButton boton= (JRadioButton)e.getSource();
 			
-			if(boton==bot1[0]) {opciontipo= 0;
-			bot6[1].setEnabled(false);;
-			}
+			if(boton==bot1[0]) {opciontipo= 0;}
 			if(boton==bot1[1]) {opciontipo= 1;}
 			if(boton==bot1[2]) {opciontipo= 2;}
 			if(boton==bot1[3]) {opciontipo= 3;}
